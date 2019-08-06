@@ -15,6 +15,7 @@ public class UserServiceImpl implements UserService{
 		
 		User user = new User();
 		//BeanUtils.copyProperties(userDTO, user);
+		
 		user.setUserId(userDTO.getUserId());
 		user.setUserName(userDTO.getUserName());
 		user.setPassword(userDTO.getPassword());

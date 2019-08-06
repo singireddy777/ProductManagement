@@ -12,6 +12,7 @@ import com.hcl.product.repository.ProductRepository;
 
 @Service
 public class ProductServiceImpl implements ProductService{
+	
 
 	@Autowired ProductRepository productRepo;
 	@Autowired ProductCountRepository productCountRepo;
